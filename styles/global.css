@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* COLORS */
+
+    /* product */
+
+    --brand-color-light: #60A5F4;
+    --brand-color-dark: #1D4ED8;
+
+    /* base */
+
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    /* texts */
+
+    --text-color-primary: #F1F5FF;
+    --text-color-secondary: #CBD5E1
+
+    /* TYPOGRAPHY */
+
+    --font-family: "Archivo", serif, sans-serif;
+
+    --heading-1: 800 24px/135% var(--font-family);
+    --heading-2: 800 16px/140% var(--font-family);
+    --heading-3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --paragraph: 400 14px/160% var(--font-family);
+}
