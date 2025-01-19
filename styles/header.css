@@ -11,14 +11,13 @@
     div:nth-child(3){
         justify-self: end;
     }
-}
 
-div{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 }
-
 
 .header__title{
     color: var(--brand-color-light);
@@ -33,11 +32,3 @@ div{
 }
 
 /* Utility First */
-
-.grid{
-    display: grid;
-}
-
-.grid-flow-col{
-    grid-auto-flow: column;
-}
