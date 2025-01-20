@@ -1,4 +1,4 @@
-section header{
+section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
     font: var(--text-span);
@@ -7,14 +7,14 @@ section header{
         justify-self: end;
         align-items: center;
         gap: 8px;
-        
-        span{
+
+        span {
             background-image: url(../assets/icons/ArrowRight.svg);
             width: 16px;
             height: 16px;
         }
 
-        &:hover span{
+        &:hover span {
             background-image: url(/assets/icons/ArrowRightHover.svg);
             width: 16px;
             height: 16px;
@@ -22,68 +22,67 @@ section header{
     }
 }
 
-#featured{
+#featured {
     grid-area: featured;
 
-    img{
+    img {
         height: 100%;
         object-fit: cover;
     }
 
-    .card{
+    .card {
         position: relative;
         border-radius: 4px;
         overflow: hidden;
-        &::before{
+
+        &::before {
             content: "";
             position: absolute;
             inset: 0;
             top: 50%;
-            background: linear-gradient(
-                180deg,
-                transparent 0%,
-                #020617 100%
-            );
+            background: linear-gradient(180deg,
+                    transparent 0%,
+                    #020617 100%);
         }
-    
-        figcaption{
+
+        figcaption {
             position: absolute;
             bottom: 0;
-    
+
             padding: 24px;
-    
-            h2{
+
+            h2 {
                 margin-top: 8px;
             }
-    
-            &:has(.text-lg){
+
+            &:has(.text-lg) {
                 padding: 12px;
             }
         }
     }
 }
 
-#weekly{
-   grid-area: weekly;
+#weekly {
+    grid-area: weekly;
 
-    &>div{
+    &>div {
         grid-template-columns: repeat(4, 292px);
     }
 
-    img{
+    img {
         height: 160px;
     }
 
-    figure{
+    figure {
         position: relative;
 
-        .content-tag{
-            position:absolute;
+        .content-tag {
+            position: absolute;
             top: 8px;
             left: 8px;
         }
 
-        p{
+        p {
             margin-top: 8px;
             font-weight: 800;
             font: var(--heading-2);
@@ -91,48 +90,48 @@ section header{
     }
 }
 
-#artificial-intelligence{
+#artificial-intelligence {
     grid-area: ai;
 
-    img{
+    img {
         width: 180px;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
 
-    h3{
+    h3 {
         margin-block: 8px 4px;
     }
 
-    header{
-        
-        h3{
+    header {
+
+        h3 {
             color: var(--text-color-secondary);
         }
     }
 
-    p{
+    p {
         color: var(--text-color-secondary);
     }
 }
 
-aside{
+aside {
     grid-area: aside;
 }
 
-#more{
+#more {
     margin-top: 24px;
 
-    img{
+    img {
         width: 72px;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
 
-    &:has(article){
-        h3{
+    &:has(article) {
+        h3 {
             margin-block: 8px 4px;
         }
     }
-    
+
 }
