@@ -33,3 +33,7 @@
 .text-sm{
     font: var(--text-span);
 }
+
+.text-xsm{
+    font: var(--paragraph);
+}
